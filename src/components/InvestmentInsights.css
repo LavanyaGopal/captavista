@@ -1,0 +1,32 @@
+
+.investment-insights {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.investment-insights h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.investment-insights ul {
+    list-style: none;
+    padding: 0;
+}
+
+.investment-insights li {
+    margin: 1rem 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.5rem;
+}
+
+.investment-insights h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.investment-insights p {
+    margin: 0.2rem 0 0;
+    color: #777;
+}

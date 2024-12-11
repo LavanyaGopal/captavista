@@ -1,0 +1,99 @@
+/* Navbar container styling */
+    .navbar {
+    background-color: rgb(255, 251, 251);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(16, 14, 14);
+    display: flex;
+    justify-content: space-between; /* Separates logo and links */
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 4rem; /* Set a fixed height for consistent layout */
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid #8b868632; 
+  }
+  
+  /* Internal container for centering */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Keeps content centered and within bounds */
+    margin: 0 auto;
+  }
+  
+  /* Logo styling */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    flex-grow: 1; /* Pushes nav links away for better spacing */
+    white-space: nowrap; /* Prevents wrapping */
+  }
+  
+  /* Navigation links styling */
+  .nav-links {
+    list-style: none;
+    display: flex;
+    /* gap: 0.5rem; Even spacing between links */
+    margin: 0;
+    padding: 0;
+    flex-grow: 1; /* Ensures links are pushed inward for balance */
+    justify-content: flex-end;
+  }
+  
+  /* Individual nav items */
+  .nav-links li {
+    position: relative;
+    color: black;
+  }
+  
+  /* Links hover effect */
+  .nav-links a {
+    text-decoration: none;
+    /* color: rgb(20, 20, 20); */
+    padding: 0.5rem 1rem;
+    display: block;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    background-color: #F4F4F4;
+    border-radius: 4px;
+  }
+  
+  /* Dropdown styling */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    color: black;
+    /* color:rgb(16, 16, 16); */
+    background-color: #F4F4F4;
+    min-width: 200px;
+    box-shadow: 0 4px 6px rgba(225, 224, 224, 0.1);
+    z-index: 10;
+  }
+  
+  .dropdown-content a {
+    padding: 0.5rem 1rem;
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #e2dfdf50;
+  }
+  
+  /* Dropdown hover behavior */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .nav-links .dropdown:hover > a {
+    background-color:  #d7d4d4;
+  }
+  

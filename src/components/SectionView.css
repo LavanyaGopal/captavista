@@ -1,0 +1,29 @@
+/* Main container for the layout */
+.section-view {
+    display: flex; /* Enables Flexbox for horizontal alignment */
+    flex-wrap: wrap; /* Ensures cards wrap to the next row if they overflow */
+    justify-content: space-between; /* Distributes cards evenly across the row */
+    align-items: flex-start; /* Aligns items at the top */
+    gap: 20px; /* Adds space between cards */
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* For larger screens, ensure alignment and maximum width */
+  @media (min-width: 1200px) {
+    .section-view {
+      max-width: 1200px;
+      margin: 0 auto; /* Centers the layout */
+    }
+  }
+  
+  /* For smaller screens */
+  @media (max-width: 768px) {
+    .section-view {
+      flex-direction: column; /* Stacks cards vertically on small screens */
+      align-items: center; /* Center the cards */
+      gap: 15px; /* Reduces gap for smaller screens */
+    }
+  }
+  
