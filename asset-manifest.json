@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/captavista/static/css/main.d5719ec7.css",
-    "main.js": "/captavista/static/js/main.2d18a5d8.js",
-    "static/media/capitavista_logo.png": "/captavista/static/media/capitavista_logo.62f85eba56747e3a7439.png",
-    "static/media/stock3.jpeg": "/captavista/static/media/stock3.c7f6f314cacb8838fdcb.jpeg",
-    "static/media/stock2.jpeg": "/captavista/static/media/stock2.51c36dda98acebfe56a8.jpeg",
-    "index.html": "/captavista/index.html",
-    "main.d5719ec7.css.map": "/captavista/static/css/main.d5719ec7.css.map",
-    "main.2d18a5d8.js.map": "/captavista/static/js/main.2d18a5d8.js.map"
+    "main.css": "/static/css/main.d5719ec7.css",
+    "main.js": "/static/js/main.ba0759e9.js",
+    "static/media/capitavista_logo.png": "/static/media/capitavista_logo.62f85eba56747e3a7439.png",
+    "static/media/stock3.jpeg": "/static/media/stock3.c7f6f314cacb8838fdcb.jpeg",
+    "static/media/stock2.jpeg": "/static/media/stock2.51c36dda98acebfe56a8.jpeg",
+    "index.html": "/index.html",
+    "main.d5719ec7.css.map": "/static/css/main.d5719ec7.css.map",
+    "main.ba0759e9.js.map": "/static/js/main.ba0759e9.js.map"
   },
   "entrypoints": [
     "static/css/main.d5719ec7.css",
-    "static/js/main.2d18a5d8.js"
+    "static/js/main.ba0759e9.js"
   ]
 }
